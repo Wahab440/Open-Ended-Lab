@@ -8,7 +8,7 @@ int main()
 	int total_days = 0;
 	int fine = 0;
 	cout << "Enter the name of desire book you want:";
-	cin >> book_name;
+	getline(cin,book_name);
 	cout << book_name<<""<< "Is available" << endl;
 	cout << "Do you want to borrow:"<<endl;
 	cin >> borrow;
